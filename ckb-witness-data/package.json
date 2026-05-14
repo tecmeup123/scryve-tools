@@ -1,0 +1,28 @@
+{
+  "name": "@scryve-tools/ckb-witness-data",
+  "version": "1.0.0",
+  "description": "Generic witness data encoding for CKB transactions — embed arbitrary structured data in transaction witnesses using a magic-byte-prefixed binary format. Zero capacity cost.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/esm/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.esm.json",
+    "test": "../../node_modules/.bin/vitest run --config ../vitest.config.ts"
+  },
+  "keywords": ["ckb", "nervos", "witness", "transaction", "encoding", "seal", "receipt"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tecmeup123/scryve-tools"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

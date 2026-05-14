@@ -1,0 +1,93 @@
+Scryve Source-Available License v1.0
+
+Copyright (c) 2025 Lusocrypto Labs
+
+Parameters
+----------
+Licensor:            Lusocrypto Labs
+Change Date:         Four (4) years from the date of the first public release
+                     of each version of the Licensed Work.
+Change License:      Apache License, Version 2.0
+                     (https://www.apache.org/licenses/LICENSE-2.0)
+
+Terms
+-----
+
+1. Grant of Rights.
+
+   Subject to the terms of this License, Licensor grants you a non-exclusive,
+   worldwide, royalty-free license to copy, modify, and create derivative works
+   of the Licensed Work in source or compiled form, solely for the purposes
+   described in Section 2.
+
+2. Permitted Uses (without a Commercial License).
+
+   You may use, copy, modify, and distribute the Licensed Work for:
+
+   a) Personal, non-commercial projects;
+   b) Academic or research purposes;
+   c) Internal evaluation and testing;
+   d) Open-source projects that are themselves licensed under an OSI-approved
+      open-source license and do not charge end users for access.
+
+3. Commercial Use Restriction.
+
+   You may not use the Licensed Work for a Commercial Use without obtaining a
+   separate written commercial license from Licensor. "Commercial Use" means:
+
+   a) Offering the Licensed Work, or a product or service that incorporates
+      the Licensed Work, to third parties for a fee or subscription;
+   b) Operating a hosted or managed service that third parties access, where
+      the Licensed Work provides material functionality of that service; or
+   c) Distributing the Licensed Work as part of a commercial product.
+
+   To obtain a commercial license, contact: support@scryvehq.com
+
+4. Scryve Platform Rights.
+
+   Licensor retains an irrevocable, perpetual right to use the Licensed Work
+   in the Scryve platform and all related Scryve products and services.
+
+5. Attribution.
+
+   All copies and substantial portions of the Licensed Work, whether modified
+   or unmodified, must retain this License text and the copyright notice above.
+
+6. No Sublicensing.
+
+   You may not sublicense the Licensed Work to any third party. Any use by a
+   third party requires a separate license from Licensor.
+
+7. Change Date.
+
+   On the Change Date specified above, the version of the Licensed Work
+   released on that date will automatically become available under the
+   Change License. This License continues to apply to prior-released versions.
+
+8. Modifications.
+
+   Modified versions of the Licensed Work must be clearly marked as modified
+   and must not be misrepresented as the original Licensed Work.
+
+9. Disclaimer of Warranties.
+
+   THE LICENSED WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, LICENSOR DISCLAIMS ALL
+   WARRANTIES, EXPRESS OR IMPLIED.
+
+10. Limitation of Liability.
+
+    IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+    SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN
+    CONNECTION WITH THIS LICENSE OR THE LICENSED WORK, EVEN IF LICENSOR HAS
+    BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+11. Governing Law.
+
+    This License shall be governed by the laws of the jurisdiction in which
+    Licensor is domiciled, without regard to conflict-of-law principles.
+
+---
+For commercial licensing inquiries: support@scryvehq.com

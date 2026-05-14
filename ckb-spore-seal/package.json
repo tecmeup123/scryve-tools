@@ -1,0 +1,28 @@
+{
+  "name": "@scryve-tools/ckb-spore-seal",
+  "version": "1.0.0",
+  "description": "Spore NFT minting utilities for CKB — encode/decode 16-byte DNA structures, define DOB/0 display patterns, generate cluster metadata, and estimate seal capacity.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/esm/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.esm.json",
+    "test": "../../node_modules/.bin/vitest run --config ../vitest.config.ts"
+  },
+  "keywords": ["ckb", "nervos", "spore", "nft", "dob", "dna", "seal", "authorship"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tecmeup123/scryve-tools"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

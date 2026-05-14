@@ -1,0 +1,31 @@
+{
+  "name": "@scryve-tools/ckb-payment-split",
+  "version": "1.0.0",
+  "description": "CKB payment splitting with cell capacity awareness — dynamically calculates minimum cell capacity for any CKB address and splits payments between recipients with dust-limit auto-rebalancing.",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/esm/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.esm.json",
+    "test": "../../node_modules/.bin/vitest run --config ../vitest.config.ts"
+  },
+  "peerDependencies": {
+    "@ckb-ccc/core": "^1.12.5"
+  },
+  "keywords": ["ckb", "nervos", "payment", "split", "omnilock", "capacity", "fee"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tecmeup123/scryve-tools"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

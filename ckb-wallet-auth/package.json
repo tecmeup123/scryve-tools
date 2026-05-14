@@ -1,0 +1,31 @@
+{
+  "name": "@scryve-tools/ckb-wallet-auth",
+  "version": "1.0.0",
+  "description": "Multi-chain wallet authentication for CKB — supports CKB, EVM, BTC, and JoyID wallets via challenge-response nonce flow and OmniLock address derivation.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/esm/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.esm.json",
+    "test": "../../node_modules/.bin/vitest run --config ../vitest.config.ts"
+  },
+  "peerDependencies": {
+    "@ckb-ccc/core": "^1.12.5"
+  },
+  "keywords": ["ckb", "nervos", "wallet", "authentication", "joyid", "omnilock", "evm", "bitcoin"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tecmeup123/scryve-tools"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

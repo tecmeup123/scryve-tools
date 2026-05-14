@@ -1,0 +1,45 @@
+{
+  "name": "@scryve-tools/ckb-sdk",
+  "version": "1.0.3",
+  "description": "Unified CKB developer SDK by Scryve Tools — wallet auth, content sealing, witness encoding, Spore NFTs, payment splitting, xUDT/RGB++ token payments, and Fiber Network channels in one package.",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "dist/ckb-sdk/index.js",
+  "types": "dist/ckb-sdk/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/ckb-sdk/index.js",
+      "import": "./dist/esm/ckb-sdk/index.js",
+      "types": "./dist/ckb-sdk/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.esm.json",
+    "test": "../../node_modules/.bin/vitest run --config ../vitest.config.ts"
+  },
+  "peerDependencies": {
+    "@ckb-ccc/core": "^1.12.5"
+  },
+  "keywords": [
+    "ckb",
+    "nervos",
+    "sdk",
+    "wallet",
+    "spore",
+    "seal",
+    "payment",
+    "joyid",
+    "xudt",
+    "rgb++",
+    "fiber"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tecmeup123/scryve-tools"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

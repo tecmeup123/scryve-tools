@@ -1,0 +1,36 @@
+{
+  "name": "@scryve-tools/ckb-xudt",
+  "version": "1.0.0",
+  "description": "xUDT/RGB++ token payments on CKB — send tokens, split payments between multiple recipients, fetch live prices from UTXOSwap, and encode/decode LE-16 cell data.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/esm/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc && tsc -p tsconfig.esm.json",
+    "test": "../../node_modules/.bin/vitest run --config ../vitest.config.ts"
+  },
+  "peerDependencies": {
+    "@ckb-ccc/core": "^1.12.5"
+  },
+  "peerDependenciesMeta": {
+    "@ckb-ccc/core": {
+      "optional": true
+    }
+  },
+  "keywords": ["ckb", "nervos", "xudt", "rgb++", "udt", "token", "utxoswap", "beaf", "payment"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tecmeup123/scryve-tools"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
